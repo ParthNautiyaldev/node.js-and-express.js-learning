@@ -1,9 +1,6 @@
-const amount = 17;
+const { sayhi } = require("F:/Career/Backend/node and express tute/5utils.js");
+const names = require("F:/Career/Backend/node and express tute/4names.js");
 
-if (amount < 10) {
-  console.log("small number");
-} else {
-  console.log("large number");
-}
-
-console.log(`hey its my first node app`);
+sayhi("Susan");
+sayhi(names.john);
+sayhi(names.peter);
